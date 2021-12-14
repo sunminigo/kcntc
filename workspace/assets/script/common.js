@@ -1,15 +1,46 @@
 $(function () {
 	sideMenu();
+	slider();
+	mainHeight();
 	dropdown();
 	tabBox();
 	popup();
-	mainHeight();
 });
 
 mainHeight = function () {
 	var bottomNaviHei = $('.navigation').outerHeight();
 
-	$('.hiden_navi_box').css({'height': bottomNaviHei});
+	try {
+		if (bottomNaviHei) {
+			$('.hiden_navi_box').css({'height': bottomNaviHei});
+		}
+	} catch {
+		$('.hiden_navi_box').css({'height': bottomNaviHei});
+	}
+};
+
+slider = function () {
+	$('#slider01').slick({
+		lazyLoad: 'ondemand',
+		autoplay: true,
+		autoplaySpeed: 5000,
+		infinite: true,
+		dots: false,
+		draggable: true,
+		arrows: false,
+		// adaptiveHeight: true,
+	});
+
+	$('#slider02').slick({
+		lazyLoad: 'ondemand',
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: true,
+		draggable: true,
+		arrows: false,
+		slidesToShow: 2.1,
+		infinite: false,
+	});
 };
 
 sideMenu = function () {
