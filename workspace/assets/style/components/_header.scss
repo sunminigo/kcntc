@@ -1,0 +1,24 @@
+/*-----------------
+	header
+------------------*/
+.header_wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+
+	.btn_menu {
+		font-size: 3.75rem;
+	}
+	.logo {
+		width: 18.75rem;
+
+		img {
+			vertical-align: top;
+		}
+	}
+	.btn_search {
+		font-size: 3.75rem;
+	}
+}
+
