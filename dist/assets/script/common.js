@@ -1,10 +1,10 @@
 $(function () {
-	mainHeight();
 	sideMenu();
 	slider();
 	dropdown();
 	tabBox();
 	popup();
+	mainHeight();
 });
 
 mainHeight = function () {
