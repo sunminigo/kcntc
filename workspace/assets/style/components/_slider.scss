@@ -6,36 +6,36 @@
   -ms-touch-action: pan-y;
   touch-action: pan-y;
 
+  img {
+    min-width: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+  .content {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+
+    p {
+      line-height: 1.5;
+      color: #fff;
+    }
+    .main_txt {
+      font-size: 1.875rem; //30px
+      font-weight: bold;
+    }
+    .sub_txt {
+      font-size: 1.125rem; //18px
+      font-weight: light;
+    }
+  }
+  
   .slick-slide {
     position: relative;
     touch-action: auto;
     -ms-touch-action: auto;
-
-    img {
-      min-width: 100%;
-      width: auto;
-      object-fit: cover;
-    }
-    .content {
-      position: absolute;
-      bottom: 25%;
-      left: 0;
-      text-align: center;
-      width: 100%;
-
-      p {
-        line-height: 1.5;
-        color: #fff;
-      }
-      .main_txt {
-        font-size: 1.875rem; //30px
-        font-weight: bold;
-      }
-      .sub_txt {
-        font-size: 1.125rem; //18px
-        font-weight: light;
-      }
-    }
   }
   .slick-dots {
     li {
