@@ -1,16 +1,40 @@
 $(function () {
+	mainHeight();
 	sideMenu();
+	slider();
 	dropdown();
 	tabBox();
-	// mainHeight();
 	popup();
 });
 
 mainHeight = function () {
-	var height = $('.header_wrap').height() + $('.navigation').outerHeight();
 	var bottomNaviHei = $('.navigation').outerHeight();
 
-	$('.page_main .container_wrap').css({'height':'calc(100% - '+ height +'px)'});
+	$('.hiden_navi_box').css({'height': bottomNaviHei});
+};
+
+slider = function () {
+	$('#slider01').slick({
+		lazyLoad: 'ondemand',
+		autoplay: true,
+		autoplaySpeed: 5000,
+		infinite: true,
+		dots: false,
+		draggable: true,
+		arrows: false,
+		// adaptiveHeight: true,
+	});
+
+	$('#slider02').slick({
+		lazyLoad: 'ondemand',
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: true,
+		draggable: true,
+		arrows: false,
+		slidesToShow: 2.1,
+		infinite: false,
+	});
 };
 
 sideMenu = function () {
