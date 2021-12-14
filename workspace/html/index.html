@@ -74,6 +74,29 @@
 				</div>
 			</div>
 		</div>
+		<script>
+			$('#slider01').slick({
+				lazyLoad: 'ondemand',
+				autoplay: true,
+				autoplaySpeed: 5000,
+				infinite: true,
+				dots: false,
+				draggable: true,
+				arrows: false,
+				// adaptiveHeight: true,
+			});
+
+			$('#slider02').slick({
+				lazyLoad: 'ondemand',
+				autoplay: true,
+				autoplaySpeed: 3000,
+				dots: true,
+				draggable: true,
+				arrows: false,
+				slidesToShow: 2.1,
+				infinite: false,
+			});
+		</script>
 	</div>
   <div class="hiden_navi_box"></div>
 	@@include('../include/navigation.html')
