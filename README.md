@@ -1,4 +1,3 @@
-# 스마트 매니저
 ## Link
 - [메인] (https://sunminigo.github.io/kc/dist/index.html)
 - [서브] (https://sunminigo.github.io/kc/dist/sub.html)
