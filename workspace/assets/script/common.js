@@ -39,6 +39,7 @@ slider = function () {
 		draggable: true,
 		arrows: false,
 		slidesToShow: 2.1,
+  	slidesToScroll: 1,
 		infinite: false,
 	});
 };
