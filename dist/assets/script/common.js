@@ -1,6 +1,6 @@
 $(function () {
-	sideMenu();
 	slider();
+	sideMenu();
 	mainHeight();
 	dropdown();
 	tabBox();
