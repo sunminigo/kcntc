@@ -1,0 +1,43 @@
+@@include('../../include/head.html', { title: 'Smart Manager' })
+<div class="wrapper">
+	<!-- 
+		서브타이틀 - 서브배너이미지
+
+		서브타이틀 top_bn_01.png
+		인증등록 top_bn_02.png
+		사용안내 top_bn_03.png
+		교육 top_bn_04.png
+		시장이벤트 top_bn_05.png
+		상생파트너 top_bn_06.png
+		공지사항 top_bn_07.png
+		전통시장 top_bn_08.png
+		직거래장터 top_bn_09.png
+		역사스토리 top_bn_10.png
+		쇼핑여행 top_bn_11.png
+		알뜰쇼핑 top_bn_12.png
+	 -->
+	@@include('../../include/topBanner.html', { banner:
+	'../../assets/images/smart_market/top_bn_01.png', isTitle: true, isSubTitle: false, title: 'SMART매니저', subTitle: ''})
+
+
+	<div class="container_wrap">
+		<div class="tab_box">
+			<div class="tab_menu">
+				<ul>
+					<li class="active">요식업</li>
+					<li>쇼핑업</li>
+					<li>렌트업</li>
+					<li>이벤트</li>
+					<li>파트너</li>
+					<li>마케팅</li>
+				</ul>
+			</div>
+			<div class="tab_content">
+				<!-- 컨텐츠 -->
+				
+				<!-- //컨텐츠 -->
+			</div>
+		</div>
+		@@include('../../include/footer.html')
+	</div>
+</div>

@@ -35,7 +35,9 @@ const PATH = {
 gulp.task('html-include', () => {
 	return new Promise((resolve) => {
 		gulp
-			.src(PATH.HTML + '/**/*.html')
+			.src(
+				PATH.HTML + '/**/*.html'
+			)
 			.pipe(
 				include({
 					prefix: '@@',
