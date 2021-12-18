@@ -1,7 +1,7 @@
 ## Link
 > ### smart manager
-- [메인] (https://sunminigo.github.io/kcntc/dist/index.html)
-- [서브] (https://sunminigo.github.io/kcntc/dist/sub.html)
+- [메인] (https://sunminigo.github.io/kcntc/dist/smart_manager/index.html)
+- [서브] (https://sunminigo.github.io/kcntc/dist/smart_manager/sub.html)
 
 > ### smart market
 - [메인] (https://sunminigo.github.io/kcntc/dist/smart_market/index.html)
