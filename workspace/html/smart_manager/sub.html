@@ -1,4 +1,4 @@
-@@include('../include/head.html', { title: 'Smart Market' })
+@@include('../../include/smart_manager/head.html', { title: 'Smart Market' })
 <div class="wrapper">
 	<!-- 
 		서브타이틀 - 서브배너이미지
@@ -15,8 +15,8 @@
 		공지사항 top_bn_11.png
 		사용안내 top_bn_12.png
 	 -->
-	@@include('../include/topBanner.html', { banner:
-	'./assets/images/smart_manager/top_bn_1.png', isTitle: true, isSubTitle: false, title: 'SMART매니저', subTitle: ''})
+	@@include('../../include/topBanner.html', { banner:
+	'../assets/images/smart_manager/top_bn_1.png', isTitle: true, isSubTitle: false, title: 'SMART매니저', subTitle: ''})
 
 	<div class="container_wrap">
 		<div class="tab_box">
@@ -36,6 +36,6 @@
 				<!-- //컨텐츠 -->
 			</div>
 		</div>
-		@@include('../include/footer.html')
+		@@include('../../include/footer.html')
 	</div>
 </div>
