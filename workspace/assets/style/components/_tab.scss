@@ -34,10 +34,11 @@
 			padding: 0 1rem;
 		}
 		ul {
-			text-align: center;
+			width: 100%;
 			margin: 0 0 0 -10px;
 		}
 		.item {
+			text-align: center;
 			display: inline-block;
 			width: calc((100% / 2) - 12px);
 			margin: 0 0 13px 10px;

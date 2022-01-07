@@ -42,27 +42,6 @@ slider = function () {
   	slidesToScroll: 1,
 		infinite: false,
 	});
-
-	$('#twoSlider').slick({
-		lazyLoad: 'ondemand',
-		autoplay: true,
-		autoplaySpeed: 3000,
-		dots: true,
-		draggable: true,
-		arrows: false,
-		slidesToShow: 2,
-  	slidesToScroll: 1,
-	});
-
-	$('#lineSlider').slick({
-		lazyLoad: 'ondemand',
-		autoplay: true,
-		autoplaySpeed: 7000,
-		infinite: true,
-		dots: false,
-		draggable: true,
-		arrows: false,
-	});
 };
 
 sideMenu = function () {
