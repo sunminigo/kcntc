@@ -1,8 +1,12 @@
 @charset "utf-8";
 
-@import 
+@import
 'mixins/index',
 'varialbes/index',
 'settings/index',
-'components/login'
+'components/header',
+'components/navigation',
+'components/sideMenu',
+'page/login',
+'page/mypage'
 ;
