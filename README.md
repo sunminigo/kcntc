@@ -1,6 +1,7 @@
 ## Link
 > ### 공통
 - [로그인] (https://sunminigo.github.io/kcntc/dist/login.html)
+- [마이페이지] (https://sunminigo.github.io/kcntc/dist/mypage.html)
 
 > ### 남북경협
 - [메인] (https://sunminigo.github.io/kcntc/dist/nambukeco/index.html)
@@ -16,6 +17,9 @@
 
 
 ## History - 최신순
+> 22.01.10
+- 마이페이지 추가
+
 > 22.01.07
 -  탭 컨텐츠 레이아웃 수정
 
