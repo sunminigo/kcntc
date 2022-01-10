@@ -23,6 +23,9 @@
 			overflow: hidden;
 		}
 		.name {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			margin: 2.75rem auto 0.875rem; //44px auto 14px
 			font-size: 3.125rem; //50px
 			font-weight: bold;

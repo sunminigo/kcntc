@@ -7,6 +7,10 @@
 	align-items: center;
 	padding: 1rem;
 
+	button {
+		display: flex;
+		align-items: center;
+	}
 	.btn_menu {
 		font-size: 3.75rem;
 	}
