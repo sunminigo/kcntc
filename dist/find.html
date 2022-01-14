@@ -6,7 +6,7 @@
 		<meta name="description" content="One Pltform3" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<title>LOGIN</title>
+		<title>Find User Info</title>
 
 		<link
 			rel="stylesheet"
@@ -43,20 +43,24 @@
     
 </div>
 
-        <h1>LogIn</h1>
+        <!-- 아이디 찾기의 경우 -->
+        <p class="info_txt">회원 아이디 찾기 서비스입니다.<br/>아래 정보를 정확히 입력해주세요.</p>
+        <!-- 비밀번호 찾기의 경우 -->
+        <p class="info_txt">회원 비밀번호 찾기 서비스입니다.<br/>아래 정보를 정확히 입력해주세요.</p>
         <div class="form_box">
             <input type="text" id="userId" class="user_id" placeholder="아이디"/>
             <input type="password" id="userPw" class="user_pw" placeholder="비밀번호"/>
         </div>
         <input type="checkbox" class="checkbox" id="chk_login"/><label for="chk_login">자동로그인</label>
 
-        <button type="submit" class="btn_login">로그인</button>
+        <button type="submit" class="btn_login">찾기</button>
 
         <div class="find_box">
             <span><a href="">아이디 찾기</a></span>
-            <span><a href="">비밀번호 찾기</a></span>
+            <span><a href="">비밀번호 재설정</a></span>
             <span><a href="">회원가입</a></span>
         </div>
+
     </div>
 </div>
 </body>

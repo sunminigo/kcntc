@@ -1,0 +1,17 @@
+<div class="control_btns">
+    @@if (isBack === true) {
+    <button type="button" class="btn_back" onclick="history.back(); return false;">
+        <i class="ph-caret-left-thin"></i>
+    </button>
+    }
+    @@if (isHome === true) {
+    <button type="button" class="btn_home" onclick="location.href='/'">
+        <i class="ph-house-thin"></i>
+    </button>
+    }
+    @@if (isSearch === true) {
+    <button type="button" class="btn_search">
+        <i class="ph-magnifying-glass-thin"></i>
+    </button>
+    }
+</div>

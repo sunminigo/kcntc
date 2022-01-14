@@ -39,7 +39,31 @@ slider = function () {
 		draggable: true,
 		arrows: false,
 		slidesToShow: 2.1,
-  	slidesToScroll: 1,
+  		slidesToScroll: 1,
+		infinite: false,
+	});
+
+	$('#lineSlider').slick({
+		lazyLoad: 'ondemand',
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: true,
+		draggable: true,
+		arrows: false,
+		slidesToShow: 1,
+  		slidesToScroll: 1,
+		infinite: false,
+	});
+
+	$('#twoSlider').slick({
+		lazyLoad: 'ondemand',
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: true,
+		draggable: true,
+		arrows: false,
+		slidesToShow: 2.1,
+  		slidesToScroll: 1,
 		infinite: false,
 	});
 };
@@ -119,4 +143,3 @@ tabBox = function () {
 		$('.tab_content > div').eq(index).css('display', 'flex');
 	});
 };
-

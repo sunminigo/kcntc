@@ -1,4 +1,5 @@
-@import 'workspace/assets/style/components/checkbox';
+@import 'components/checkbox';
+@import 'components/control_btns';
 
 .page_login {
     display: flex;
@@ -27,7 +28,6 @@
             border: 1px solid #959595;
         }
     }
-
     .btn_login {
         width: 100%;
         height: 48px;
@@ -58,6 +58,42 @@
             }
             &:first-child:before {
                 display: none;
+            }
+        }
+        &.mt-100 {
+            margin-top: 100px;
+        }
+    }
+    .info_txt {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #414D97;
+    }
+
+    .find_end {
+        .info_txt {
+            text-align: center;
+            font-size: 2rem;
+            color: #414D97;
+        }
+        .find_box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            a {
+                flex: 0 0 50%;
+                text-align: center;
+                height: 40px;
+                line-height: 40px;
+                background: #eee;
+                color: #555;
+                border: 1px solid #ddd;
+
+                &:first-child {
+                    flex: 0 0 100%;
+                    margin: 0 0 1px;
+                }
             }
         }
     }

@@ -1,6 +1,8 @@
 ## Link
 > ### 공통
 - [로그인] (https://sunminigo.github.io/kcntc/dist/login.html)
+- [아이디/비밀번호 찾기] (https://sunminigo.github.io/kcntc/dist/find.html)
+- [아이디/비밀번호 찾기 완료] (https://sunminigo.github.io/kcntc/dist/find_end.html)
 - [마이페이지] (https://sunminigo.github.io/kcntc/dist/mypage.html)
 
 > ### 남북경협
@@ -17,6 +19,10 @@
 
 
 ## History - 최신순
+> 22.01.14
+- 남북경협 슬라이더 레이아웃 깨짐 현상 수정
+- 아이디/비밀번호 찾기, 완료 페이지 추가
+
 > 22.01.10
 - 마이페이지 추가
 
