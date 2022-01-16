@@ -39,7 +39,7 @@ slider = function () {
 		draggable: true,
 		arrows: false,
 		slidesToShow: 2.1,
-  		slidesToScroll: 1,
+  	slidesToScroll: 1,
 		infinite: false,
 	});
 
@@ -51,7 +51,7 @@ slider = function () {
 		draggable: true,
 		arrows: false,
 		slidesToShow: 1,
-  		slidesToScroll: 1,
+		slidesToScroll: 1,
 		infinite: false,
 	});
 
@@ -63,7 +63,7 @@ slider = function () {
 		draggable: true,
 		arrows: false,
 		slidesToShow: 2.1,
-  		slidesToScroll: 1,
+		slidesToScroll: 1,
 		infinite: false,
 	});
 };

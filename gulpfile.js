@@ -162,7 +162,6 @@ const ALL_SERIES = gulp.series([
 	'script:concat',
 	'library',
 	'nodemon:start',
-	'imagemin',
 	'browserSync',
 	'watch',
 ]);

@@ -2,7 +2,7 @@
 	position: relative;
 	height: 29.375rem; //470px
 	overflow: hidden;
-	
+
 	& > img {
 		object-fit: cover;
 	}
@@ -28,7 +28,7 @@
 			font-weight: bold;
 		}
 	}
-	
+
 	.sub_header {
 		position: absolute;
 		top: 0;
@@ -39,6 +39,7 @@
 		background: linear-gradient(to bottom, rgba(#000, .05), rgba(#000, 0));
 	}
 	button {
+		display: inline-flex;
 		font-size: 3.75rem; //60px
 
 		i {

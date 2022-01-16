@@ -31,15 +31,16 @@
       font-weight: light;
     }
   }
-  
+
   .slick-slide {
     position: relative;
     touch-action: auto;
     -ms-touch-action: auto;
+	  overflow: hidden;
   }
   .slick-dots {
     bottom: -10px;
-    
+
     li {
       width: 0.625rem;
       height: 0.625rem;
@@ -60,6 +61,13 @@
 }
 
 .page_main {
+	#slider01 {
+		.slick-slide {
+			img {
+				width: 100%;
+			}
+		}
+	}
   #slider02.slider {
     .slick-list {
       padding: 0 1rem;
@@ -75,8 +83,8 @@
   }
   #twoSlider {
     .slick-slide {
-      height: 163px;
       margin: 0 0.375rem;// 6px
+	    overflow: hidden;
 
       img {
         width: 15rem;// 240px

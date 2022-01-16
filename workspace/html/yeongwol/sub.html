@@ -1,0 +1,43 @@
+@@include('../../include/yeongwol/head.html', { title: 'Yeongwol' })
+<div class="wrapper">
+	<!--
+		서브타이틀 - 서브배너이미지
+
+		종류별자원 top_bn_01.png
+		읍면별 자원  top_bn_02.png
+		문화관광자원 top_bn_03.png
+		힐링자원 top_bn_04.png
+		특산물자원 top_bn_05.png
+		유휴자원 top_bn_06.png
+		인적자원 top_bn_07.png
+		산업자원 top_bn_08.png
+		마을쇼핑자원 top_bn_09.png
+		건강자원 top_bn_10.png
+		쇼핑공간 top_bn_11.png
+		축제공연 top_bn_12.png
+		가이드 top_bn_13.png
+	 -->
+	@@include('../../include/topBanner.html', { banner:
+	'../assets/images/yeongwol/top_bn_01.png', isTitle: true, isSubTitle: false, title: 'SMART매니저', subTitle: ''})
+
+	<div class="container_wrap">
+		<div class="tab_box">
+			<div class="tab_menu">
+				<ul>
+					<li class="active">요식업</li>
+					<li>쇼핑업</li>
+					<li>렌트업</li>
+					<li>이벤트</li>
+					<li>파트너</li>
+					<li>마케팅</li>
+				</ul>
+			</div>
+			<div class="tab_content">
+				<!-- 컨텐츠 -->
+
+				<!-- //컨텐츠 -->
+			</div>
+		</div>
+		@@include('../../include/footer.html')
+	</div>
+</div>
