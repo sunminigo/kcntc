@@ -1,5 +1,6 @@
 ## Link
 [KCNTC] [https://sunminigo.github.io/kcntc/dist/index.html](https://sunminigo.github.io/kcntc/dist/index.html)
+<a href="https://www.google.com/" target="_blank">새 탭에서 열기</a>
 
 
 ## History - 최신순
