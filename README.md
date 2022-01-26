@@ -2,6 +2,9 @@
 [KCNTC] [https://sunminigo.github.io/kcntc/dist/index.html](https://sunminigo.github.io/kcntc/dist/index.html)
 
 ## History - 최신순
+> 22.01.26
+- 드롭다운 메뉴 수정
+
 > 22.01.22
 - 그곳에 가면 메인,서브 추가
 
