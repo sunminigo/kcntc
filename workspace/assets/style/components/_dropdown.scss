@@ -33,6 +33,7 @@
 		-moz-transition: height 0.6s 0.3s ease-in-out;
 		-ms-transition: height 0.6s 0.3s ease-in-out;
 		-o-transition: height 0.6s 0.3s ease-in-out;
+		overflow: hidden;
 
 		&.active {
 			height: auto;
