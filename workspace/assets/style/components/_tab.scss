@@ -1,3 +1,5 @@
+@import "mixins/dotdotdot";
+
 .tab_box {
 	.tab_menu {
 		ul {
@@ -50,6 +52,13 @@
 				margin-bottom: 0.625rem; //10px
 				border-radius: 1rem;
 				overflow: hidden;
+
+				img {
+					object-fit: cover;
+				}
+			}
+			.title {
+				@include dot();
 			}
 		}
 	}

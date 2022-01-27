@@ -4,10 +4,29 @@
 	.kcntc_intro ul { list-style: none; }
 	.kcntc_intro li:before { content: "-"; margin-right: 10px; }
 	.kcntc_intro .part { margin-top: 20px;border-bottom: 1px solid #eee; }
+	details {
+		border: 1px solid #aaa;
+		border-radius: 4px;
+		padding: .5em .5em 0;
+	}
+	summary {
+		font-weight: bold;
+		margin: -.5em -.5em 0;
+		padding: .5em;
+	}
+	details[open] {
+		padding: .5em;
+	}
+	details[open] summary {
+		border-bottom: 1px solid #aaa;
+		margin-bottom: .5em;
+	}
+
 </style>
 
 <div class="kcntc_intro">
 	<h1>한국문화관광콘텐츠개발</h1>
+
 
 	<div class="part">
 		<h2>공통 화면</h2>
@@ -60,3 +79,59 @@
 		</ul>
 	</div>
 </div>
+
+<details class="kcntc_intro">
+	<summary>로컬서버 링크</summary>
+	<div>
+		<div class="part">
+			<h2>공통 화면</h2>
+			<ul>
+				<li><a href="/login.html">로그인</a></li>
+				<li><a href="/find.html">아이디/비밀번호 찾기</a></li>
+				<li><a href="/find_end.html">아이디/비밀번호 찾기 완료</a></li>
+				<li><a href="/mypage.html">마이페이지</a></li>
+				<li><a href="/dropdown.html">드롭다운페이지</a></li>
+			</ul>
+		</div>
+
+		<div class="part">
+			<h2>그곳에가면</h2>
+			<ul>
+				<li><a href="/ifyougothere/index.html">메인</a></li>
+				<li><a href="/ifyougothere/sub.html">서브</a></li>
+			</ul>
+		</div>
+
+		<div class="part">
+			<h2>영월자원플랫폼</h2>
+			<ul>
+				<li><a href="/yeongwol/index.html">메인</a></li>
+				<li><a href="/yeongwol/sub.html">서브</a></li>
+			</ul>
+		</div>
+
+		<div class="part">
+			<h2>남북경협</h2>
+			<ul>
+				<li><a href="/nambukeco/index.html">메인</a></li>
+				<li><a href="/nambukeco/sub.html">서브</a></li>
+			</ul>
+		</div>
+
+		<div class="part">
+			<h2>스마트 매니저</h2>
+			<ul>
+				<li><a href="/smart_manager/index.html">메인</a></li>
+				<li><a href="/smart_manager/sub.html">서브</a></li>
+			</ul>
+		</div>
+
+		<div class="part">
+			<h2>스마트 전통시장</h2>
+			<ul>
+				<li><a href="/smart_market/index.html">메인</a></li>
+				<li><a href="/smart_market/sub.html">서브</a></li>
+			</ul>
+		</div>
+	</div>
+<details>
