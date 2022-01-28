@@ -2,6 +2,9 @@
 [KCNTC] [https://sunminigo.github.io/kcntc/dist/index.html](https://sunminigo.github.io/kcntc/dist/index.html)
 
 ## History - 최신순
+> 22.01.28
+- 이미지 비율 수정
+
 > 22.01.27
 - sub 페이지 레이아웃 틀어짐 수정
 

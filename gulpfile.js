@@ -1,5 +1,5 @@
 const gulp = require('gulp'),
-	scss = require('gulp-sass'),
+	scss = require("gulp-sass")(require('sass')),
 	sourcemaps = require('gulp-sourcemaps'),
 	nodemon = require('gulp-nodemon'),
 	browserSync = require('browser-sync'),

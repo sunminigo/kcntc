@@ -1,6 +1,6 @@
 .top_area {
 	position: relative;
-	height: 29.375rem; //470px
+	//height: 29.375rem; //470px
 	overflow: hidden;
 
 	& > img {
@@ -8,16 +8,18 @@
 	}
 	.bn_text {
 		position: absolute;
-		top: 0;
+		top: 50%;
 		left: 0;
+		transform: translateY(-50%);
 		text-align: center;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		width: 100%;
-		height: 100%;
+		//height: 100%;
 
 		p {
+			ine-height: 1.5;
 			color: #fff;
 			font-size: 2.5rem; //40px
 			font-weight: 300;
