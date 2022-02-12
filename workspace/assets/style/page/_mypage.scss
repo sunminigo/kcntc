@@ -26,13 +26,13 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			margin: 2.75rem auto 0.875rem; //44px auto 14px
+			margin: 0.875rem auto;
 			font-size: 3.125rem; //50px
 			font-weight: bold;
 		}
 		.email {
 			font-size: 1.5rem; //24px
-			font-size: 300;
+			font-weight: 300;
 		}
 	}
 	.menu {
@@ -49,6 +49,53 @@
 		img {
 			width: 5.625rem; //90px
 			margin-bottom: 2px;
+		}
+	}
+
+	.title {
+		h2 {
+			text-align: center;
+			height: 5rem;
+			line-height: 5.5rem;
+			font-size: 1.875rem;
+		}
+	}
+	.modify_form {
+		margin: auto;
+		min-width: 300px;
+		width: 50%;
+		margin-top: 2.625rem;
+
+		label {
+			display: inline-block;
+			text-align: right;
+			width: 25%;
+			font-size: 1.375rem;
+			margin-right: 10px;
+		}
+		input {
+			width: calc(100% - 25% - 15px);
+			height: 3.75rem;
+			margin-top: 1.5rem;
+			border: 1px solid #ccc;
+			background: #EDEDED;
+		}
+		.pw_form {
+			label {
+				width: 40%;
+			}
+			input {
+				width: calc(100% - 40% - 15px);
+			}
+		}
+		.btn_agree {
+			width: 100%;
+			height: 5rem;
+			background: #414D97;
+			color: #fff;
+			font-size: 2.5rem;
+			margin: 5.25rem 0;
+			border-radius: 100px;
 		}
 	}
 }

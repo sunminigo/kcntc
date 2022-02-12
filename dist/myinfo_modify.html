@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="One Pltform3" />
+		<meta name="description" content="One Pltform3" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Modify MyInfo</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+		/>
+
+		<link rel="stylesheet" href="./assets/style/common.css" />
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+		<script src="https://unpkg.com/phosphor-icons"></script>
+
+		<script type="text/javascript" src="./assets/script/common.js"></script>
+	</head>
+	<body>
+
+<div class="wrapper page_mypage">
+    <div class="container_wrap">
+        <div class="title">
+          <h2>내정보 수정</h2>
+          <div class="control_btns">
+    
+    <button type="button" class="btn_back" onclick="history.back(); return false;">
+        <i class="ph-caret-left-thin"></i>
+    </button>
+    
+    
+    
+</div>
+        </div>
+
+        <div class="user_info">
+          <div class="thumbnail">
+            <i class="ph-user-thin"></i>
+          </div>
+          <p class="name">홍길동</p>
+        </div>
+
+        <form class="modify_form">
+          <div class="pw_form">
+            <label for="userPw">현재 비밀번호</label>
+            <input type="password" id="userPw" class="user_pw"/>
+          </div>
+          <div class="pw_form">
+            <label for="usePw">새 비밀번호</label>
+            <input type="password" id="usePw" class="use_pw"/>
+          </div>
+          <div class="pw_form">
+            <label for="usePwChk">새 비밀번호 확인</label>
+            <input type="password" id="usePwChk" class="use_pw_chk"/>
+          </div>
+          <div>
+            <label for="userPhone">연락처</label>
+            <input type="text" id="userPhone" class="user_phone"/>
+          </div>
+          <div>
+            <label for="userEmail">이메일</label>
+            <input type="text" id="userEmail" class="user_email"/>
+          </div>
+
+          <button type="submit" class="btn_agree">수정</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
