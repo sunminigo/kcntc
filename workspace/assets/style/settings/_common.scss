@@ -67,6 +67,9 @@ input[type='button'],
 input[type='submit'] {
 	cursor: pointer;
 }
+input {
+	padding: 0 10px;
+}
 button {
 	background: transparent;
 	border: none;
