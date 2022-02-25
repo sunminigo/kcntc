@@ -28,7 +28,7 @@
     }
     .sub_txt {
       font-size: 1.125rem; //18px
-      font-weight: light;
+      font-weight: lighter;
     }
   }
 
@@ -61,6 +61,13 @@
 
 .page_main {
 	#slider01 {
+		.slick-slide {
+			img {
+				width: 100%;
+			}
+		}
+	}
+	#slider_dot {
 		.slick-slide {
 			img {
 				width: 100%;

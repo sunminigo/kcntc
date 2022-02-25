@@ -31,6 +31,16 @@ slider = function () {
 		// adaptiveHeight: true,
 	});
 
+	$('#slider_dot').slick({
+		lazyLoad: 'ondemand',
+		autoplay: true,
+		autoplaySpeed: 5000,
+		infinite: true,
+		dots: true,
+		draggable: true,
+		arrows: false,
+	});
+
 	$('#slider02').slick({
 		lazyLoad: 'ondemand',
 		autoplay: true,

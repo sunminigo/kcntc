@@ -2,6 +2,9 @@
 [KCNTC] [https://sunminigo.github.io/kcntc/dist/index.html](https://sunminigo.github.io/kcntc/dist/index.html)
 
 ## History - 최신순
+> 22.02.25
+- [FIX] 영월 메인 구성
+
 > 22.02.12
 - [ADD] 내정보수정 페이지
 

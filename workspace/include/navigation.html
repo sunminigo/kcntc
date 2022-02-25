@@ -1,5 +1,17 @@
 <nav class="navigation">
-	<a href="#"><i class="ph-map-pin-thin"></i></a>
-	<a href="#"><i class="ph-user-thin"></i></a>
-	<a href="#"><i class="ph-qr-code-thin"></i></a>
+	<a href="#"><i class="ph-map-pin-thin"></i>
+    @@if (isText === true) {
+    <p>여행지도</p>
+    }
+  </a>
+	<a href="#"><i class="ph-user-thin"></i>
+    @@if (isText === true) {
+    <p>마이페이지</p>
+    }
+  </a>
+	<a href="#"><i class="ph-qr-code-thin"></i>
+    @@if (isText === true) {
+    <p>QR스캔</p>
+    }
+  </a>
 </nav>
