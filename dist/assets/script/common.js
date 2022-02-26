@@ -1,21 +1,24 @@
 $(function () {
+	mainHeight();
 	slider();
 	sideMenu();
-	mainHeight();
 	dropdown();
 	tabBox();
 	popup();
 });
+$( window ).resize( function() {
+	mainHeight();
+});
 
 mainHeight = function () {
 	var bottomNaviHei = $('.navigation').outerHeight();
-
+console.log(bottomNaviHei)
 	try {
 		if (bottomNaviHei) {
 			$('.hiden_navi_box').css({'height': bottomNaviHei});
 		}
 	} catch {
-		$('.hiden_navi_box').css({'height': bottomNaviHei});
+		mainHeight();
 	}
 };
 
@@ -138,18 +141,3 @@ popup = function () {
 		}
 	});
 }
-
-tabBox = function () {
-	$('.tab_menu > ul > li').eq(0).addClass('active');
-	$('.tab_content > div').hide().eq(0).show();
-
-	$('.tab_menu > ul > li').click(function () {
-		let target = $(this);
-		let index = target.index();
-
-		$('.tab_menu > ul > li').removeClass('active');
-		target.addClass('active');
-		$('.tab_content > div').css('display', 'none');
-		$('.tab_content > div').eq(index).css('display', 'flex');
-	});
-};
