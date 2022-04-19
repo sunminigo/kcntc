@@ -1,7 +1,10 @@
 ## Link
-[KCNTC] [LINK](https://sunminigo.github.io/kcntc/dist/index.html)
+[KCNTC] [https://sunminigo.github.io/kcntc/dist/index.html](https://sunminigo.github.io/kcntc/dist/index.html)
 
 ## History - 최신순
+> 22.04.19
+- [FIX] 그곳에 가면 메인 수정
+
 > 22.02.25
 - [FIX] 영월 메인 구성
 
