@@ -68,6 +68,31 @@ slider = function () {
 		infinite: false,
 	});
 
+	$('#lineDotSlider').slick({
+		lazyLoad: 'ondemand',
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		draggable: true,
+		arrows: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: false,
+	});
+
+	$('#lineFadeSlider').slick({
+		lazyLoad: 'ondemand',
+		fade: true,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		draggable: true,
+		arrows: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: false,
+	});
+
 	$('#twoSlider').slick({
 		lazyLoad: 'ondemand',
 		autoplay: true,
