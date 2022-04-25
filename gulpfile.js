@@ -1,5 +1,5 @@
 const gulp = require('gulp'),
-	scss = require("gulp-sass")(require('sass')),
+	scss = require('gulp-sass')(require('sass')),
 	sourcemaps = require('gulp-sourcemaps'),
 	nodemon = require('gulp-nodemon'),
 	browserSync = require('browser-sync'),
@@ -40,7 +40,7 @@ gulp.task('html-include', () => {
 				include({
 					prefix: '@@',
 					basepath: '@file',
-					indent: true
+					indent: true,
 				})
 			)
 			.pipe(gulp.dest(DEST_PATH.HTML))
@@ -138,7 +138,7 @@ gulp.task('watch', () => {
 		gulp.watch(PATH.HTML + '/**/*.html', gulp.series(['html-include']));
 		gulp.watch(PATH.ASSETS.STYLE + '/**/*.scss', gulp.series(['scss:compile']));
 		gulp.watch(PATH.ASSETS.SCRIPT + '/**/*.js', gulp.series(['script:concat']));
-		// gulp.watch(PATH.ASSETS.LIB + '/**/*.*', gulp.series(['library']));
+		gulp.watch(PATH.ASSETS.LIB + '/**/*.*', gulp.series(['library']));
 		gulp.watch(PATH.ASSETS.IMAGES + '/**/*.*', gulp.series(['imagemin']));
 
 		resolve();
@@ -157,16 +157,6 @@ gulp.task('browserSync', () => {
 });
 
 // 호출 묶음
-const ALL_SERIES = gulp.series([
-	'clean',
-	'scss:compile',
-	'html-include',
-	'script:concat',
-	// 'library',
-	'imagemin',
-	'nodemon:start',
-	'browserSync',
-	'watch',
-]);
+const ALL_SERIES = gulp.series(['clean', 'scss:compile', 'html-include', 'script:concat', 'library', 'imagemin', 'nodemon:start', 'browserSync', 'watch']);
 
 gulp.task('default', ALL_SERIES);
