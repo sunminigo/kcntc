@@ -1,16 +1,4 @@
 @charset "utf-8";
 
-@import
-'mixins/index',
-'varialbes/index',
-'settings/index',
-'components/header',
-'components/navigation',
-'components/sideMenu',
-'components/dropdown',
-'components/tab',
-'components/topBanner',
-'components/slider',
-'page/login',
-'page/mypage'
-;
+@import 'mixins/index', 'variables/index', 'settings/index', 'components/header', 'components/navigation', 'components/sideMenu', 'components/dropdown', 'components/tab', 'components/topBanner',
+	'components/slider', 'page/login', 'page/mypage';
