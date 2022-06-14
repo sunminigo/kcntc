@@ -244,7 +244,6 @@
 			.parking-place {
 				text-align: center;
 				margin-top: 8px;
-				padding: 0 10px;
 				font-size: 1.5rem;
 				color: #5e605f;
 			}
@@ -256,7 +255,7 @@
 				flex: 1;
 				display: flex;
 				justify-content: center;
-				padding: 20px;
+				padding: 15px;
 				font-size: 1.75rem;
 
 				img {
@@ -274,7 +273,7 @@
 		.state {
 			width: 100%;
 			padding: 10px 15px;
-			font-size: 17px;
+			font-size: 1.063rem;
 			border-radius: 30px;
 			background: #bdbdbd;
 			color: #fff;
@@ -295,7 +294,7 @@
 .sub_header {
 	display: flex;
 	align-items: center;
-	padding: 21px 30px;
+	padding: 18px 17px;
 	background: #469bff;
 	color: #fff;
 	font-size: 2.5rem;
