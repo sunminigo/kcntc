@@ -134,15 +134,24 @@
 
 .page_event {
 	text-align: center;
+	height: 100%;
+	
+	.container_wrap {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+	}
 
 	.mascot {
 		width: 80%;
-		margin: 3.75rem auto 0;
+		// margin: 8rem auto 0;
 		padding-bottom: 3.75rem;
 		border-bottom: 1px solid #eee;
 
 		img {
-			width: 100%;
+			width: 50%;
 			max-width: 327px;
 		}
 		p {
@@ -160,8 +169,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		padding: 3.75rem 0;
-		margin: -2.563rem 0 1.25rem;
+		padding-top: 3.75rem;
+		margin: -2.563rem 6rem 1.25rem;
 
 		.menu {
 			flex: 0 0 33.3%;
