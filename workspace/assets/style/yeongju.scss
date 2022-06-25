@@ -207,11 +207,32 @@
 			font-size: 2.188rem;
 			color: #011365;
 		}
+		&-items {
+			display: flex;
+			gap: 5px;
+
+			.parking-item {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+				font-size: 1.75rem;
+
+				img {
+					width: 3.75rem !important;
+					margin-left: 10px;
+				}
+				.group {
+					font-size: 2.5rem;
+				}
+				.state {
+					padding: 0 10px;
+				}
+			}
+		}
 		&-item {
-			margin: 5px;
-			padding: 20px;
+			padding: 10px;
 			border: 1px solid #bdbdbd;
-			border-radius: 30px;
+			border-radius: 10px;
 			background: #fff;
 
 			&__line1 {
@@ -246,6 +267,9 @@
 					margin-top: 12px;
 				}
 			}
+			.state {
+				font-size: 18px !important;
+			}
 		}
 		&-item-box {
 			margin: 10px;
@@ -256,36 +280,17 @@
 				font-size: 1.5rem;
 				color: #5e605f;
 			}
-		}
-		&-items {
-			display: flex;
-
-			.parking-item {
-				flex: 1;
-				display: flex;
-				justify-content: center;
-				padding: 15px;
-				font-size: 1.75rem;
-
-				img {
-					width: 3.75rem !important;
-					margin-left: 10px;
-				}
-				.group {
-					font-size: 2.5rem;
-				}
-				.state {
-					padding: 0 10px;
-				}
+			.state {
+				font-size: 14px !important;
 			}
 		}
 		.state {
 			width: 100%;
-			padding: 10px 15px;
-			font-size: 1.063rem;
+			padding: 5px;
 			border-radius: 30px;
 			background: #bdbdbd;
 			color: #fff;
+			white-space: nowrap;
 
 			&-step1.active {
 				background: #0069b6;
