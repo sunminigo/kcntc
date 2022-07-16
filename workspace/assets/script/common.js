@@ -12,7 +12,6 @@ $( window ).resize( function() {
 
 mainHeight = function () {
 	var bottomNaviHei = $('.navigation').outerHeight();
-console.log(bottomNaviHei)
 	try {
 		if (bottomNaviHei) {
 			$('.hiden_navi_box').css({'height': bottomNaviHei});

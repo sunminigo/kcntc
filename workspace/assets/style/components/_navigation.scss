@@ -6,23 +6,24 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	padding: 10px 15px;
+	height: $bottom_navigation_height;
+	padding: $gap * 2;
 	background: #fff;
 
 	a {
 		text-align: center;
-		margin: 0 20px;
+		margin: 0 $gap * 2;
 
 		i {
-			font-size: 3.75rem;
+			font-size: $gap * 4;
 		}
 		img {
-			width: 4.438rem;
+			width: $gap * 4;
 			height: 100%;
 			opacity: 0.65;
 		}
 		p {
-			font-size: 1rem;
+			font-size: $gap * 2;
 			white-space: nowrap;
 		}
 	}

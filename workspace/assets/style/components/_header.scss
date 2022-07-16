@@ -5,25 +5,25 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem;
+	height: $header-height;
+	padding: 0 $gap * 2;
 
 	button {
 		display: flex;
 		align-items: center;
 	}
 	.btn_menu {
-		font-size: 3.75rem;
+		font-size: $gap * 4;
 	}
 	.logo {
 		display: flex;
-		width: 15.75rem;
 
 		img {
 			vertical-align: top;
 		}
 	}
 	.btn_search {
-		font-size: 3.75rem;
+		font-size: $gap * 4;
 	}
 }
 

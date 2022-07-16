@@ -1,0 +1,73 @@
+@@include('../../include/gangneung_choi/head.html', { title: '횡성에 가면' })
+<div class="wrapper page_main">
+	@@include('../../include/gangneung_choi/header.html')
+	<div class="container_wrap">
+		<div class="slide_box">
+			<div id="slider_dot" class="slider">
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_visual_1.png" alt="" />
+					</a>
+				</div>
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_visual_2.png" alt="" />
+					</a>
+				</div>
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_visual_3.png" alt="" />
+					</a>
+				</div>
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_visual_4.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu_box">
+			<a href=""><img src="../assets/images/gangneung_choi/menu_1.png" alt="" />최씨인증</a>
+			<a href=""><img src="../assets/images/gangneung_choi/menu_2.png" alt="" />집안행사</a>
+			<a href=""><img src="../assets/images/gangneung_choi/menu_3.png" alt="" />최씨네장터</a>
+			<a href=""><img src="../assets/images/gangneung_choi/menu_4.png" alt="" />이벤트</a>
+		</div>
+
+		<div class="slide_card"></div>
+		
+		<div class="slider_box">
+			<div id="lineSlider" class="slider">
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_line.png" alt="" />
+						<div class="content center">
+							<p class="sub_txt bold">나를 위한 품격</p>
+							<p class="main_txt">스마트비서</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const data = [
+				{ title: '강릉최씨<br>역사', color: '#B98367' },
+				{ title: '최씨네<br>문화유산', color: '#8A807B' },
+				{ title: '최씨네<br>인물', color: '#B9A88E' },
+				{ title: '최씨네<br>파종회', color: '#D8AF80' },
+				{ title: '최씨네<br>종인단체', color: '#CAA28D' },
+				{ title: '물품<br>공유', color: '#8A807B' },
+				{ title: '최씨네<br>지원사업', color: '#B9A88E' },
+				{ title: '구인<br>구직', color: '#D8AF80' },
+			];
+			const itemBox = document.querySelector('.slide_card');
+			data.forEach(function(val) {
+				itemBox.innerHTML += `<a href="" style="background-color:${val.color}">${ val.title }</a>`;
+			});
+		</script>
+	</div>
+	<div class="hiden_navi_box"></div>
+	@@include('../../include/gangneung_choi/navigation.html', { isText: true })
+</div>
+@@include('../../include/footer.html')

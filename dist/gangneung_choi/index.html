@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="횡성에 가면" />
+		<meta name="description" content="횡성에 가면" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>횡성에 가면</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+
+		<link rel="stylesheet" href="../assets/style/common.css" />
+		<link rel="stylesheet" href="../assets/style/gangneung_choi.css" />
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+		<script src="https://unpkg.com/phosphor-icons"></script>
+
+		<script type="text/javascript" src="../assets/script/common.js"></script>
+		<script type="text/javascript" src="../assets/script/gangneung_choi.js"></script>
+	</head>
+	<body></body>
+</html>
+
+<div class="wrapper page_main">
+	<div class="header_wrap">
+		<button type="button" class="btn_menu"><i class="ph-list-thin"></i></button>
+		<h1 class="logo">
+			<img src="../assets/images/gangneung_choi/logo.png" alt="logo" class="img" />
+		</h1>
+		<button type="button" class="btn_search">
+			<i class="ph-magnifying-glass-thin"></i>
+		</button>
+
+		<div class="side_menu">
+			<div class="side_bg">
+				<div class="side_logo" width="@@width">
+					<img src="../assets/images/gangneung_choi/logo.png" alt="logo" class="img" />
+				</div>
+				<ul class="menu_side">
+					<li class="active">
+						<a href="#"><span>HOME</span></a>
+					</li>
+					<li>
+						<a href="#"><span>플랫폼가게</span></a>
+					</li>
+					<li>
+						<a href="#"><span>상품지도</span></a>
+					</li>
+					<li>
+						<a href="#"><span>직거래장터</span></a>
+					</li>
+					<li>
+						<a href="#"><span>여행</span></a>
+					</li>
+					<li>
+						<a href="#"><span>마이여행</span></a>
+					</li>
+					<li>
+						<a href="#"><span>이벤트</span></a>
+					</li>
+					<li class="point_green">
+						<a href="#"><span>QR코드</span></a>
+					</li>
+				</ul>
+				<div class="btn_close">
+					<i class="ph-x-thin"></i>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container_wrap">
+		<div class="slide_box">
+			<div id="slider_dot" class="slider">
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_visual_1.png" alt="" />
+					</a>
+				</div>
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_visual_2.png" alt="" />
+					</a>
+				</div>
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_visual_3.png" alt="" />
+					</a>
+				</div>
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_visual_4.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu_box">
+			<a href=""><img src="../assets/images/gangneung_choi/menu_1.png" alt="" />최씨인증</a>
+			<a href=""><img src="../assets/images/gangneung_choi/menu_2.png" alt="" />집안행사</a>
+			<a href=""><img src="../assets/images/gangneung_choi/menu_3.png" alt="" />최씨네장터</a>
+			<a href=""><img src="../assets/images/gangneung_choi/menu_4.png" alt="" />이벤트</a>
+		</div>
+
+		<div class="slide_card"></div>
+		
+		<div class="slider_box">
+			<div id="lineSlider" class="slider">
+				<div class="slider-item">
+					<a href="">
+						<img src="../assets/images/gangneung_choi/bn_line.png" alt="" />
+						<div class="content center">
+							<p class="sub_txt bold">나를 위한 품격</p>
+							<p class="main_txt">스마트비서</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const data = [
+				{ title: '강릉최씨<br>역사', color: '#B98367' },
+				{ title: '최씨네<br>문화유산', color: '#8A807B' },
+				{ title: '최씨네<br>인물', color: '#B9A88E' },
+				{ title: '최씨네<br>파종회', color: '#D8AF80' },
+				{ title: '최씨네<br>종인단체', color: '#CAA28D' },
+				{ title: '물품<br>공유', color: '#8A807B' },
+				{ title: '최씨네<br>지원사업', color: '#B9A88E' },
+				{ title: '구인<br>구직', color: '#D8AF80' },
+			];
+			const itemBox = document.querySelector('.slide_card');
+			data.forEach(function(val) {
+				itemBox.innerHTML += `<a href="" style="background-color:${val.color}">${ val.title }</a>`;
+			});
+		</script>
+	</div>
+	<div class="hiden_navi_box"></div>
+	<nav class="navigation">
+		<a href="#"
+			><i class="ph-map-pin-thin"></i>
+			
+			<p>최씨네지도</p>
+			
+		</a>
+		<a href="#"
+			><i class="ph-user-thin"></i>
+			
+			<p>마이룸</p>
+			
+		</a>
+		<a href="#"
+			><i class="ph-qr-code-thin"></i>
+			
+			<p>QR스캔</p>
+			
+		</a>
+	</nav>
+
+</div>
+</body>
+</html>
+

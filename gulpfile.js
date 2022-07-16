@@ -98,7 +98,9 @@ gulp.task('script:concat', () => {
 
 gulp.task('library', () => {
 	return new Promise((resolve) => {
-		gulp.src(PATH.ASSETS.LIB + '/**/*.*').pipe(gulp.dest(DEST_PATH.ASSETS.LIB));
+		gulp
+		.src(PATH.ASSETS.LIB + '/**/*.*')
+		.pipe(gulp.dest(DEST_PATH.ASSETS.LIB));
 
 		resolve();
 	});
